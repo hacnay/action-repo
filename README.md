@@ -1,6 +1,5 @@
 ### README.md for `action-repo`
 
-```markdown
 # GitHub Action Trigger
 
 This repository serves as a demonstration for triggering GitHub webhook events. By performing actions like pushing commits, creating pull requests, and merging branches, you can observe how GitHub events are captured and processed by your webhook receiver (`webhook-repo`).
