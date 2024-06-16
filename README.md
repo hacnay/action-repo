@@ -1,4 +1,3 @@
-
 # Action Repository
 
 This repository is used to trigger GitHub actions (push, pull request, merge) and send webhook events to the webhook-repo.
@@ -48,7 +47,7 @@ This repository is used to trigger GitHub actions (push, pull request, merge) an
    - Merge: Merge a pull request.
 
 2. **Webhooks:**
-   - Ensure the webhook is configured to point to the webhook-repo endpoint (e.g., `http://your-public-server/webhook/receiver`).
+   - Ensure the webhook is configured to point to the webhook-repo endpoint (e.g., `http://your-ngrok-url/webhook/receiver`).
 
 ## Contributing
 
@@ -60,4 +59,4 @@ This repository is used to trigger GitHub actions (push, pull request, merge) an
 
 ## License
 
-This project is licensed under the License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
